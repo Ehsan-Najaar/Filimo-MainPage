@@ -49,7 +49,7 @@ export async function Comments() {
         <div class="comment-card">
           <div class="comment-card-top">
             <div class="user-info">
-              <img src="/1.webp" alt="User Icon" class="user-avatar" />
+              <img src="/user.webp" alt="User Icon" class="user-avatar" />
               <span>${item.name}</span>
             </div>
             <img src="/virgol.webp" alt="Icon" class="virgol-icon" />
