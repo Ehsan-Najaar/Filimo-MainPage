@@ -20,7 +20,7 @@ export async function Cinama() {
   container.appendChild(cardsWrapper)
 
   try {
-    const res = await fetch('http://localhost:3000/cinama')
+    const res = await fetch('https://filimo-mainpage.onrender.com/cinama')
     const movies = await res.json()
 
     movies.forEach((movie) => {

@@ -52,7 +52,7 @@ export async function Banner() {
   let banners = []
   let currentIndex = 0
 
-  fetch('http://localhost:3000/banner')
+  fetch('https://filimo-mainpage.onrender.com/banner')
     .then((res) => res.json())
     .then((data) => {
       banners = data

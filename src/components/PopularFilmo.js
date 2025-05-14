@@ -38,7 +38,7 @@ export async function PopularFilmo() {
   let allData = []
 
   try {
-    const res = await fetch('http://localhost:3000/popular')
+    const res = await fetch('https://filimo-mainpage.onrender.com/popular')
     const data = await res.json()
     allData = data
 

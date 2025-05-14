@@ -25,7 +25,9 @@ export async function FreeContents() {
   container.appendChild(wrapper)
 
   try {
-    const response = await fetch('http://localhost:3000/free-contents-movie')
+    const response = await fetch(
+      'https://filimo-mainpage.onrender.com/free-contents-movie'
+    )
     const movies = await response.json()
 
     movies.forEach((movie) => {

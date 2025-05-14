@@ -39,7 +39,7 @@ export async function Comments() {
   container.appendChild(wrapper)
 
   try {
-    const res = await fetch('http://localhost:3000/comments')
+    const res = await fetch('https://filimo-mainpage.onrender.com/comments')
     const comments = await res.json()
 
     comments.forEach((item) => {
